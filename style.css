@@ -4,7 +4,7 @@
 }
 
 :root {
-    --bg-white: #f4f4f4;
+    --bg-white: #fffeea;
     --black: #000;
     --cat-beige: #edb894;
     --cat-brown: #d79357;
@@ -33,6 +33,7 @@ h2 {
    font-weight: var(--regular-weight);
    margin-left: 0;
    margin-top: 15%;
+   color: var(--black);
 }
 
 h3 {
@@ -41,6 +42,7 @@ h3 {
     font-weight: var(--regular-weight);
     margin-left: 5%;
     margin-top: 4%;
+    color: var(--black);
 }
 
 p {
@@ -49,8 +51,14 @@ p {
     font-weight: var(--regular-weight);
     max-width: 70%;
     margin-left: 10%;
+    color: var(--black);
 }
 
 strong {
     font-weight: var(--bold-weight);
+    color: var(--black);
+}
+
+body {
+    background-color: var(--bg-white);
 }
