@@ -25,16 +25,16 @@ h2 {
    font-size: var(--h2-fontsize);
    font-family: 'Libre Bodoni', serif;
    font-weight: var(--regular-weight);
-   padding-left: 0;
-   padding-top: 10svh;
+   margin-left: 0;
+   margin-top: 15svh;
 }
 
 h3 {
     font-size: var(--h3-fontsize);
     font-family: 'Libre Bodoni', serif;
     font-weight: var(--regular-weight);
-    padding-left: 5svw;
-    padding-top: 4svh;
+    margin-left: 5svw;
+    margin-top: 4svh;
 }
 
 p {
@@ -42,7 +42,7 @@ p {
     font-family: 'Inconsolata', sans-serif;
     font-weight: var(--regular-weight);
     max-width: 70svw;
-    padding-left: 10svw;
+    margin-left: 10svw;
 }
 
 strong {
