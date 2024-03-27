@@ -1,3 +1,8 @@
+
+* {
+    box-sizing: border-box;
+}
+
 :root {
     --bg-white: #f4f4f4;
     --black: #000;
@@ -13,6 +18,7 @@
     --h3-fontsize: 2rem;
     --p-fontsize: 1rem;
 }
+
 
 h1 {
     font-size: var(--h1-fontsize);
