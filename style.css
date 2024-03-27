@@ -68,3 +68,12 @@ nav ul {
     font-weight: var(--bold-weight);
     list-style-type: none; 
 }
+
+header {
+    position: sticky;
+    top: 0;
+  
+    background-color: var(--white);
+  
+    z-index: 1;
+}
