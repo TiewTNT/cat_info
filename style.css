@@ -1,0 +1,50 @@
+:root {
+    --bg-white: #f4f4f4;
+    --black: #000;
+    --cat-beige: #edb894;
+    --cat-brown: #d79357;
+    --dark-cat-brown: #a54906;
+
+    --regular-weight: 400;
+    --bold-weight: 700;
+
+    --h1-fontsize: 4rem;
+    --h2-fontsize: 3rem;
+    --h3-fontsize: 2rem;
+    --p-fontsize: 1rem;
+}
+
+h1 {
+    font-size: var(--h1-fontsize);
+    font-family: 'Libre Bodoni', serif;
+    font-weight: var(--regular-weight);
+    text-align: center;
+}
+
+h2 {
+   font-size: var(--h2-fontsize);
+   font-family: 'Libre Bodoni', serif;
+   font-weight: var(--regular-weight);
+   padding-left: 0;
+   padding-top: 10svh;
+}
+
+h3 {
+    font-size: var(--h3-fontsize);
+    font-family: 'Libre Bodoni', serif;
+    font-weight: var(--regular-weight);
+    padding-left: 5svw;
+    padding-top: 4svh;
+}
+
+p {
+    font-size: var(--p-fontsize);
+    font-family: 'Inconsolata', sans-serif;
+    font-weight: var(--regular-weight);
+    max-width: 70svw;
+    padding-left: 10svw;
+}
+
+strong {
+    font-weight: var(--bold-weight);
+}
