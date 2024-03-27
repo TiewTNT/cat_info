@@ -62,18 +62,17 @@ body {
     background-color: var(--bg-white);
 }
 
+nav {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: var(--cat-beige);
+    height: 10svh;
+}
+
 nav ul {
     display: flex;
     direction: row;
     font-weight: var(--bold-weight);
     list-style-type: none; 
-}
-
-header {
-    position: sticky;
-    top: 0;
-  
-    background-color: var(--white);
-  
-    z-index: 1;
 }
