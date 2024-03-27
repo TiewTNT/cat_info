@@ -24,15 +24,20 @@ h1 {
     font-family: 'Libre Bodoni', serif;
     font-weight: var(--regular-weight);
     text-align: center;
+    margin-top: 15svh;
 }
 
 h2 {
-   font-size: var(--h2-fontsize);
-   font-family: 'Libre Bodoni', serif;
-   font-weight: var(--regular-weight);
-   margin-left: 0;
-   margin-top: 15%;
-   color: var(--black);
+    font-size: var(--h2-fontsize);
+    font-family: 'Libre Bodoni', serif;
+    font-weight: var(--regular-weight);
+    margin-left: 2%;
+    margin-top: 7%;
+    color: var(--black);
+}
+
+h1 + h2 {
+    margin-top: 5%;
 }
 
 h3 {
@@ -59,12 +64,20 @@ strong {
 }
 
 body {
+    margin: 0;
     background-color: var(--bg-white);
 }
 
+h2 {
+    scroll-margin-top: 10svh;
+}
+
 nav {
+    font-family: 'Inconsolata';
+    font-size: 3svh;
     position: fixed;
     top: 0;
+    z-index: 1000;
     width: 100%;
     background-color: var(--cat-beige);
     height: 10svh;
@@ -72,7 +85,28 @@ nav {
 
 nav ul {
     display: flex;
-    direction: row;
+    justify-content: space-between;
     font-weight: var(--bold-weight);
     list-style-type: none; 
+}
+
+nav ul li {
+    padding: 0.5svh;
+    width: 25svw;
+    text-align: center;
+    border-radius: 10px;
+    transition: transform .2s;
+    margin: 0% 0.5rem;
+}
+
+nav a {
+    display: block; 
+    height: 100%; 
+    color: var(--black);
+    text-decoration: none;
+}
+
+nav ul li:hover {
+    background-color: #d79357;
+    transform: scale(1.15);
 }
